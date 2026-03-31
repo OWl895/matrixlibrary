@@ -6,7 +6,6 @@
 
 using namespace std;
 
-// Вспомогательная функция для вывода вектора
 void printVec(const string& label, const vector<Fraction>& v) {
     cout << label << " (Дроби): [ ";
     for(size_t i = 0; i < v.size(); ++i) cout << v[i] << (i == v.size() - 1 ? "" : ", ");
