@@ -31,6 +31,7 @@
 ```bash
 sudo apt-get update
 sudo apt-get install libgmp-dev
+```
 
 ### Для генерации чисел
 - Julia
